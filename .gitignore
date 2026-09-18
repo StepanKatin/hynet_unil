@@ -1,3 +1,19 @@
 .venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 .env
-.dockerignore
+*.log
+/data/
+/tmp/
+sing-box
+config.json
+
+# Локальный стенд; в проде/других проектах — только dockerfile как sidecar
+docker-compose.yml
+compose.yml
+compose.yaml
